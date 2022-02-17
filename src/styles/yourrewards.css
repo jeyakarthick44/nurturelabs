@@ -1,0 +1,11 @@
+.your-rewards {
+  position: relative;
+  top:-70px;
+  background: #191b20;
+  border-radius: 24px;
+  margin-left: 40px;
+  width: 660px;
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+}

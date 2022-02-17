@@ -48,9 +48,9 @@
 }
 
 .slide{
-  position: fixed;
+  position:fixed;
   top:60px;
-  left: 190px;
+  left: 200px;
 }
 
 .sections {
@@ -59,7 +59,7 @@
 .section-container {
   display: flex;
   flex-direction: row;
-  width: 200px;
+  width: 180px;
   height: 35px;
   mix-blend-mode: normal;
   border-radius: 12px;
