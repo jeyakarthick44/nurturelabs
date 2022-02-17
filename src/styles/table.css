@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins&display=swap");
+
+.bottom-menu h2 {
+  padding-top: 50px;
+  padding-left: 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 25px 0px 6px 0px;
+}
+
+.bottom-menu img {
+  width: 80px;
+  position: relative;
+  top: -14px;
+  left: 38px;
+  background: #3772ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}

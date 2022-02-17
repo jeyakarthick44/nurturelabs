@@ -1,6 +1,6 @@
 .invite {
   position: absolute;
-  top: 365px;
+  top: 340px;
   margin-left: 40px;
   display: flex;
   flex-direction: row;
@@ -8,7 +8,7 @@
 
 .division1 {
   width: 320px;
-  height: 145px;
+  height: 140px;
   background: #191b20;
   border-radius: 24px;
   display: flex;
@@ -57,7 +57,7 @@
   background: #242731;
   mix-blend-mode: normal;
   border-radius: 8px;
-  padding: 12px 46px 12px 20px;
+  padding: 8px 46px 8px 20px;
 }
 .ungroup {
   position: relative;
@@ -74,7 +74,7 @@
 
 .division2 {
   width: 320px;
-  height: 145px;
+  height: 140px;
   background: #191b20;
   border-radius: 24px;
   margin-left: 20px;
@@ -123,7 +123,7 @@
   background: #242731;
   border-radius: 8px;
   margin-right: 18px;
-  padding: 12px 40px 12px 20px;
+  padding: 8px 46px 8px 20px;
 }
 .ungroup1 {
   position: relative;

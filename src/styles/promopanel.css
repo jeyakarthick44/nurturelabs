@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins&display=swap");
 
 .promo {
+  position: relative;
+  top:-12px;
   width: 655px;
   height: 75px;
   background-color: #abe8ff;
@@ -20,6 +22,8 @@
 }
 
 .promo button {
+  position:absolute;
+  top:40px;
   background: #ffffff;
   border-radius: 6px;
   margin: 0px 0px 0px 20px;
@@ -36,18 +40,18 @@
 
 .promo-image {
   position: relative;
-  bottom: 80px;
+  bottom: 93px;
   left: 560px;
 }
 .circle{
   position: absolute;
-  top:100px;
+  top:90px;
   left:930px;
   z-index: 0;
 }
 .remove{
   position:absolute;
-  top:108px;
-  left: 938px;
+  top:98px;
+  left: 939px;
   z-index: 1;
 }
