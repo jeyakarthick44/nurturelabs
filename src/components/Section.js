@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/section.css";
+import Invite from './Invite';
 import PromoPanel from './PromoPanel';
 import TopMenu from './TopMenu';
 import YourRewards from './YourRewards';
@@ -11,6 +12,7 @@ const Section = () => {
         <TopMenu />
         <PromoPanel />
         <YourRewards />
+        <Invite />
     </div>
   )
 }
