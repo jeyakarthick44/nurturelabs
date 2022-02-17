@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Section from './components/Section';
 import Sidebar from './components/Sidebar';
