@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins&display=swap");
 
 .sidebar {
-  height: 100vh;
+  height: 806px;
   width: 250px;
   background-color: #000000;
   border-right-width: 1.5px;
@@ -48,7 +48,7 @@
 }
 
 .slide{
-  position:fixed;
+  position:absolute;
   top:60px;
   left: 200px;
 }
@@ -88,6 +88,7 @@
 }
 
 .section-bottom-container {
+  margin-top: 155px;
   display: flex;
   flex-direction: row;
 }
@@ -149,6 +150,7 @@
   background: #a3e3ff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  margin-top: 155px;
 }
 
 .section-bottom2 p {
@@ -164,9 +166,9 @@
 }
 
 .section-bottom-img {
-  position: absolute;
-  bottom: 30px;
-  left: 25px;
+  position: relative;
+  top: 99px;
+  left: 40px;
 }
 
 .section-bottom-toggle {

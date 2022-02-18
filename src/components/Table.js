@@ -13,7 +13,6 @@ const Table = () => {
         </div>
         <div className="bottom-menu">
           <h2>Second Tab</h2>
-          <img src={line} />
         </div>
       </div>
       <TableData />

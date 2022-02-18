@@ -2,9 +2,9 @@
 
 .promo {
   position: relative;
-  top:-12px;
+  top:-3px;
   width: 655px;
-  height: 75px;
+  height: 86px;
   background-color: #abe8ff;
   border-radius: 10px;
   margin: 0%;
@@ -14,7 +14,7 @@
 .promo h1 {
   font-family: Poppins;
   font-style: normal;
-  padding: 10px 0px 0px 20px;
+  padding: 15px 0px 0px 20px;
   font-weight: 500;
   font-size: 13px;
   line-height: 26px;
@@ -23,11 +23,11 @@
 
 .promo button {
   position:absolute;
-  top:40px;
+  top:50px;
   background: #ffffff;
   border-radius: 6px;
   margin: 0px 0px 0px 20px;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 22px 0px 22px;
   border: none;
   font-family: Inter;
   font-style: normal;
@@ -40,18 +40,18 @@
 
 .promo-image {
   position: relative;
-  bottom: 93px;
+  bottom: 81px;
   left: 560px;
 }
 .circle{
   position: absolute;
-  top:90px;
+  top:98px;
   left:930px;
   z-index: 0;
 }
 .remove{
   position:absolute;
-  top:98px;
-  left: 939px;
+  top:105px;
+  left: 938px;
   z-index: 1;
 }
