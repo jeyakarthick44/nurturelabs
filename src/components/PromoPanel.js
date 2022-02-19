@@ -12,8 +12,8 @@ const PromoPanel = () => {
       <h1>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry.
-      </h1>
       <button>Tutorial</button>
+      </h1>
     </div>
       <img className="promo-image" src={promoImage} />
       <img className="remove" src={remove} />

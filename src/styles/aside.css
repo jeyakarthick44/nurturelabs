@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins&display=swap");
 .aside {
+  width: 25%;
   height: 806px;
   background-color: #000000;
 }
@@ -23,7 +24,7 @@
 }
 
 .chain-name1 {
-  width: 120px;
+  width:120%;
   height: 30px;
   position: relative;
   top: 0px;
@@ -39,8 +40,8 @@
   color: #ffffff;
   margin: 0%;
   padding-top: 5px;
-  padding-left: 15px;
-  padding-right: 10px;
+  padding-left: 35px;
+  padding-right: 30px;
 }
 
 .tier1 {
@@ -85,10 +86,11 @@
 }
 
 .left-arr {
-  width: 14px;
   position: absolute;
-  top: 130px;
-  left: 1030px;
+  top:20.6%;
+  left: 76%;
+  width: 14px;
+  height: 14px;
 }
 
 .main-slide {
@@ -113,10 +115,6 @@
 }
 
 .page-link {
-  position:absolute;
-  top: 240px;
-  left: 1024px;
-  margin-left: 30px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -125,6 +123,7 @@
   letter-spacing: -1px;
   color: #ffffff;
   margin: 0%;
+  margin-left: 40px;
 }
 
 .enter {
@@ -145,7 +144,7 @@
 
 .custom {
   position:relative;
-  top: 80px;
+  top: 50px;
   left: 40px;
   width: 145px;
   height: 25px;
@@ -170,7 +169,7 @@
 
 .cancel {
   position: relative;
-  top: 45px;
+  top: 15px;
   left: 180px;
   width: 125px;
   height: 25px;

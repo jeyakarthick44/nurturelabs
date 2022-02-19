@@ -2,7 +2,7 @@
 
 .sidebar {
   height: 806px;
-  width: 250px;
+  width: 18.5%;
   background-color: #000000;
   border-right-width: 1.5px;
   border-right-style: solid;
@@ -50,7 +50,7 @@
 .slide{
   position:absolute;
   top:60px;
-  left: 200px;
+  left: 170px;
 }
 
 .sections {
@@ -175,4 +175,25 @@
   position: relative;
   top: 106px;
   left: 60px;
+}
+
+
+/* -------------------------> Media queries <---------------------------- */
+
+@media only screen and (max-width: 1194px) {
+  .slide{
+    left: 150px;
+  }
+}
+
+@media only screen and (max-width: 1004px) {
+  .slide{
+    left: 140px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .slide{
+    display: none;
+  }
 }

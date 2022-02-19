@@ -27,8 +27,8 @@ const Aside = () => {
           <img className="left-arr" src={left} />
           <p className="custom-link3">Custom link</p>
         </div>
-        <h6 className="page-link">https://testnet.xyz.xyz/trade?ref=</h6>
         <p className="enter">Enter</p>
+        <h6 className="page-link">https://testnet.xyz.xyz/trade?ref=</h6>
         <p className="custom">
           <img src={group16082} /> Custom link
         </p>

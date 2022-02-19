@@ -16,7 +16,7 @@
 }
 
 .topmenu img {
-  width: 70px;
+  width: 80px;
   position: relative;
   top: -14px;
   left: 38px;
@@ -24,10 +24,11 @@
 }
 
 .tier {
-  margin-top: 50px;
-  margin-left: 430px;
-  width: 170px;
+  position: absolute;
+  top: 9%;
+  left: 57%;
   height: 35px;
+  width: 14%;
   display: flex;
   flex-direction: row;
   background-color: #191b20;
@@ -37,22 +38,21 @@
 .tier img {
   position: static;
   bottom: 200px;
-  padding: 11px 0px 0px 10px;
-  width: 19px;
-  height: 14px;
+  padding: 11px 0px 0px 20px;
+  width: 10%;
+  height: 40%;
   color: #3772ff;
 }
 .tier p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 83%;
   margin: 0%;
   padding: 9px 0px 0px 10px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  
 }
 .tier h2 {
   font-family: Poppins;
@@ -75,4 +75,31 @@
 .container {
   display: flex;
   flex-direction: row;
+}
+
+/* -------------------------> Media queries <---------------------------- */
+
+@media only screen and (max-width: 1194px) {
+  .tier {
+    width: 15%;
+    left: 52%;
+  }
+  .tier img {
+    padding: 11px 0px 0px 10px;
+  }
+}
+@media only screen and (max-width: 1116px) {
+  .tier {
+    left: 52%;
+    width: 17%;
+  }
+  .tier img {
+    padding: 11px 0px 0px 10px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .tier {
+    left: 52%;
+    width: 18%;
+  }
 }
