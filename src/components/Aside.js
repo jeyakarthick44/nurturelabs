@@ -17,7 +17,7 @@ const Aside = () => {
             <h2 className="chain-name1">Avalanche</h2>
             <img className="down-arr1" src={down} alt=""/>
           </div>
-          <div className="tier">
+          <div className="tier1">
             <img className="wallet1" src={wallet}  alt=""/>
             <p>0xf6...1353</p>
             <img className="down-arr2" src={down} alt=""/>
