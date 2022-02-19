@@ -9,10 +9,10 @@ const TopMenu = () => {
     <div className='container'>
     <div className='topmenu'>
       <h2>Section</h2>
-      <img src={line} />
+      <img src={line} alt=""/>
     </div>
       <div className='tier'>
-      <img src={wallet} />
+      <img src={wallet} alt=""/>
         <p>0.2 $XYZ</p>
         <h2>Tier 1</h2>
       </div>

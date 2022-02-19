@@ -11,7 +11,7 @@ const YourRewards = () => {
       <div className="amount">
         <h1>$ 0.26231428</h1>
         <p>
-          <img src={group16082} /> Custom link
+          <img src={group16082} alt=""/> Custom link
         </p>
       </div>
       <div className="button-group">

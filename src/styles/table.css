@@ -46,7 +46,7 @@
   position: absolute;
   display: flex;
   flex-direction: row;
-  width: 659px;
+  width: 49%;
   text-align: center;
   height: 82px;
   left: 285px;
@@ -157,4 +157,27 @@
   position: relative;
   bottom:26px;
   left: 70px;
+}
+
+
+/* -------------------------> Media queries <---------------------------- */
+
+@media only screen and (max-width: 1194px) {
+  .body{
+    left: 255px;
+
+  }
+}
+
+@media only screen and (max-width: 1004px) {
+  .body{
+    left: 255px;
+
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .body{
+    left: 255px;
+  }
 }

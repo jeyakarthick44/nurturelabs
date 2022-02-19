@@ -40,17 +40,17 @@ const TableData = () => {
       </div>
       {Object.keys(getData).map((item, index) => (
         <div key={index} className="body">
-          <img className="bitcoin-img" src={getData[item].img} />
+          <img className="bitcoin-img" src={getData[item].img} alt=""/>
           <p>{getData[item].asset}<br />
           <div className="order">
           <h3 className="type">{getData[item].type}</h3>
-          <img className="ellipse" src={getData[item].chain.img}/> <h2 className="chain-name">{getData[item].chain.name}</h2>
+          <img className="ellipse" src={getData[item].chain.img} alt=""/> <h2 className="chain-name">{getData[item].chain.name}</h2>
           </div>
           </p>
           <p>{getData[item].amount}BNB <br /><h6 className="expired">{getData[item].state}</h6></p>
           <p>{change(getData[item].user)}</p>
           <p>{getData[item].referral_earnings}BNB<br /><h1 className="view">View on BSC Scan</h1>
-          <img className="custom-link" src={group16082} />
+          <img className="custom-link" src={group16082} alt=""/>
           </p>
         </div>
       ))}

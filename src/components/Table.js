@@ -9,7 +9,7 @@ const Table = () => {
       <div className="container">
         <div className="bottom-menu">
           <h2>First Tab</h2>
-          <img src={line} />
+          <img src={line} alt=""/>
         </div>
         <div className="bottom-menu">
           <h2>Second Tab</h2>

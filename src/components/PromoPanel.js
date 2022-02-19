@@ -15,9 +15,9 @@ const PromoPanel = () => {
       <button>Tutorial</button>
       </h1>
     </div>
-      <img className="promo-image" src={promoImage} />
-      <img className="remove" src={remove} />
-      <img className="circle" src={circle} />
+      <img className="promo-image" src={promoImage} alt=""/>
+      <img className="remove" src={remove} alt=""/>
+      <img className="circle" src={circle} alt=""/>
       </>
   );
 };

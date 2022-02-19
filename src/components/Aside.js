@@ -13,27 +13,27 @@ const Aside = () => {
       <div className="aside">
         <div className="dividing">
           <div className="order1">
-            <img className="ellipse1" src={ellipse2} />
+            <img className="ellipse1" src={ellipse2} alt=""/>
             <h2 className="chain-name1">Avalanche</h2>
-            <img className="down-arr1" src={down} />
+            <img className="down-arr1" src={down} alt=""/>
           </div>
-          <div className="tier1">
-            <img className="wallet1" src={wallet} />
+          <div className="tier">
+            <img className="wallet1" src={wallet}  alt=""/>
             <p>0xf6...1353</p>
-            <img className="down-arr2" src={down} />
+            <img className="down-arr2" src={down} alt=""/>
           </div>
         </div>
         <div className="main-slide">
-          <img className="left-arr" src={left} />
+          <img className="left-arr" src={left} alt=""/>
           <p className="custom-link3">Custom link</p>
         </div>
         <p className="enter">Enter</p>
         <h6 className="page-link">https://testnet.xyz.xyz/trade?ref=</h6>
         <p className="custom">
-          <img src={group16082} /> Custom link
+          <img src={group16082} alt=""/> Custom link
         </p>
         <p className="cancel">
-          <img src={cancel} /> Cancel
+          <img src={cancel} alt="" /> Cancel
         </p>
       </div>
     </>
